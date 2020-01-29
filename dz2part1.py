@@ -1,9 +1,8 @@
 from random import randint as ri
 
-n = 10
 list = []
 
-for i in range (n):
+for i in range (10):
     list.append(ri(0,99))
 
 print(list)
