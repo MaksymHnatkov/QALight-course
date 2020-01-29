@@ -9,7 +9,7 @@ if A > B:
 elif A < B:
     print ("Не хорошо(((")
 elif A == B:
-    print ("Теперь эта!")
+    print (C, "Теперь эта!")
     if (A + B) < C:
         print ("Супер!")
     elif (A + B) > C:
