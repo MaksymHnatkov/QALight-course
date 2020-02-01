@@ -8,11 +8,11 @@ d = (int(input("Введіть бажане максимальне значен�
 def listFunc2 (x,y,w,z):
     list1 = []
     for i in range(x):
-        list1.append(ri(0, y))
+        list1.append(ri(0, y+1))
 
     list2 = []
     for e in range(w):
-        list2.append(ri(0, z))
+        list2.append(ri(0, z+1))
 
     list3 =[]
     for s in list1:
