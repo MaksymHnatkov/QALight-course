@@ -23,7 +23,7 @@ def listFunc2 (x,y,w,z):
         print ("Співпадінь не виявлено")
         return list3
     else:
-        return list3
+        return list(set(list3))
 
 print (listFunc2(a,b,c,d))
 
