@@ -6,7 +6,7 @@ b = (int(input("Введіть бажане максимальне значен�
 def listFunc (x,y):
     list = []
     for i in range(x):
-        list.append(ri(0,y))
+        list.append(ri(0,y+1))
     return list
 
 print(listFunc(a,b))
