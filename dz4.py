@@ -45,3 +45,4 @@ con.commit()
 
 curs.close()
 con.close()
+
