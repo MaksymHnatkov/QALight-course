@@ -9,7 +9,7 @@ curs.execute("""CREATE TABLE cars
                   model TEXT, 
                   release_year INTEGER,
                   fuel_type TEXT,
-                  FOREIGN KEY (release_year) REFERENCES taxes (year),
+                  FOREIGN KEY (release_year) REFERENCES taxes(year),
                   FOREIGN KEY (company) REFERENCES companies(name))""")
 
 curs.execute("""CREATE TABLE companies
